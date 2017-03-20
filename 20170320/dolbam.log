@@ -1,0 +1,15 @@
+DEBUG:root:디버깅을 위한 메시지 로그
+INFO:root:정보를 제공하기 위한 메시지 로그
+WARNING:root:주의해야할 사항들
+ERROR:root:에러 발생!
+CRITICAL:root:심각한 에러!!
+DEBUG:root:디버깅을 위한 메시지 로그
+INFO:root:정보를 제공하기 위한 메시지 로그
+WARNING:root:주의해야할 사항들
+ERROR:root:에러 발생!
+CRITICAL:root:심각한 에러!!
+DEBUG:root:디버깅을 위한 메시지 로그
+INFO:root:정보를 제공하기 위한 메시지 로그
+WARNING:root:주의해야할 사항들
+ERROR:root:에러 발생!
+CRITICAL:root:심각한 에러!!
