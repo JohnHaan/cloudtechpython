@@ -1,0 +1,16 @@
+[2017-03-26 09:54:58,933: DEBUG/health] Success
+[2017-03-26 09:56:07,990: DEBUG/health] Success
+[2017-03-26 09:56:42,133: WARNING/health] Connection Failed
+[2017-03-26 09:58:01,176: WARNING/health] Connection Failed
+[2017-03-26 09:58:47,443: WARNING/health] Connection Failed
+[2017-03-26 09:59:30,455: DEBUG/health] Success
+[2017-03-26 10:13:46,296: DEBUG/health] Desination URL : google.com
+[2017-03-26 10:13:46,297: DEBUG/health] Success
+[2017-03-26 10:14:38,108: DEBUG/health] Success
+[2017-03-26 10:14:38,108: DEBUG/health] Desination URL : google.com
+[2017-03-26 10:25:40,873: DEBUG/health] google.com
+[2017-03-26 10:25:40,874: DEBUG/health] google.com
+[2017-03-26 10:28:19,968: DEBUG/health] success
+[2017-03-26 10:28:19,968: DEBUG/health] google.com
+[2017-03-26 10:49:01,806: DEBUG/health] success
+[2017-03-26 10:49:01,806: DEBUG/health] google.com
