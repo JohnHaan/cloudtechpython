@@ -1,0 +1,10 @@
+문제 1. 특정 서버를 헬스체크하여 접속 실패 여부를 특정 파일에 저장하는 프로그램을 작성하시오.
+  - 조건 : target url, target protocol, 로그 파일을 설정하는 설정파일을 정의하시오.
+  - 설정파일의 위치는 : /etc/{nicname}.conf로 정의합니다.
+  - oslo_log, oslo_config를 사용
+  - ping 체크 함수를 만들고 함수 입력 값을 로그로 남기시요[0] (@log_helpers.log_method_call)
+
+[0] ex)
+def health_check(target):
+    r = pyping.ping(target)
+    return r
