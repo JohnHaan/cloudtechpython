@@ -20,8 +20,10 @@
   - 20170313 : 코딩클럽(LV.1) 5장, 라이브러리 활용
   - 20170320 : 로깅실습(logging, oslo.log)
   - 20170327 : config 실습(configparser)
-  - 20170403 : olso 실습
-  - 20170410 : class 실습
+  - 20170403 : olso.conf, oslo.log 실습
+  - 20170410 : class 실습(basic, 생성/소멸자, isinstance)
+  - 20170417 : class 실습(상속, 오버라이드)
+  
   
 **Budget 현황**
 https://docs.google.com/spreadsheets/d/1pa9qEH_3CccPPkhA0fBQ7pTYmJ9hzWPrgjDCWZKogUw/edit?usp=sharing

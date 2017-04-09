@@ -1,39 +1,43 @@
 # -*- coding:utf-8 -*-
-from oslo_config import cfg
-from oslo_log import log as logging
 import pyping
+import sys
+from oslo_config import cfg
+from oslo_log import log as oslo_logging
 
+CONF = cfg.CONF
 
-def pingtest():
-    parser = SafeConfigParser()
-    parser.read('/etc/zeroxkim.conf')
+OPTS = [
+    cfg.StrOpt("target_url",
+                default="google.com"),
+    cfg.StrOpt("target_protocol",
+                default="icmp"),
+    cfg.StrOpt("log_dir",
+                default="./log")
+]
+
+def register_options(cfg):
+    cfg.register_opts(OPTS, "zeroxkim")
+    cfg.register_cli_opts(OPTS, "zeroxkim")
     
-    target = parser.get('DEFAULT', 'target_url')
-    protocol = parser.get('DEFAULT', 'target_protocol')
-    logFile = parser.get('DEFAULT', 'log_file')
     
-    logger = logging.getLogger('zeroxkimlogger')
-    logger.setLevel(logging.DEBUG)
-    fomatter = logging.Formatter('[%(asctime)s: %(levelname)s/%(module)s] %(message)s')
-    fileHandler = logging.FileHandler('%s' % logFile)
-    fileHandler.setFormatter(fomatter)
-    logger.addHandler(fileHandler)
+#def pingtest(target):
+    #r= pyping.ping(target)
     
-    if protocol == 'udp':
-        r = pyping.ping(target, udp = True)
-    else:
-        r = pyping.ping(target)
-    
-    if r.ret_code == 0:
-        logger.info('%s %s %s' % (target, 'Success', protocol))
-    else:
-        logger.info('%s %s %s' % (target, 'Failed', protocol))
+    #return r
     
     
 def main():
-    pingtest()
+    register_options(CONF)
+    oslo_logging.register_options(CONF)
+    CONF(sys.argv[1:], default_config_files=['/etc/zeroxkim.conf'])
+    oslo_logging.setup(CONF, 'zeroxkim')
+    LOG = oslo_logging.getLogger(__name__)
+    
+    LOG.info("target_url: %s", CONF.zeroxkim.target_url)
+    LOG.info("target_protocol: %s", CONF.zeroxkim.target_protocol)
+    LOG.info("log_dir: %s", CONF.zeroxkim.log_dir)
     
     
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
     

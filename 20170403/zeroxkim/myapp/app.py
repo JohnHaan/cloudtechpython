@@ -19,9 +19,8 @@ def register_options(cfg):
 CONF = cfg.CONF
 
 def main():
-    register_options(CONF)
-    oslo_logging.register_options(CONF)
     CONF(sys.argv[1:], default_config_files=['app.conf'])
+    oslo_logging.register_options(CONF)
     oslo_logging.setup(CONF, 'demo')
     LOG = oslo_logging.getLogger(__name__)
     

@@ -1,0 +1,9 @@
+1. Car class를 활용하여, taxi, truck, bus의 각각의 특성에 맞는 객체 인스턴스를 생성하는 프로그램을 만드시오.
+  - taxi 특성 : 주황색, 4인승, 소형
+  - truck 특성 : 초록색, 2인승, 중형
+  - bus 특성 : 파란색, 15인승, 대형
+  
+2. OpenStack의 neutron project에서 class를 정의하는 코드를 2개 이상 찾아 코드를 붙여넣고 생성자 소멸자를 설명하여라.
+  - github URL : https://github.com/openstack/neutron.git
+ 
+ 예> 
