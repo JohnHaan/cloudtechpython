@@ -1,0 +1,11 @@
+DEBUG:__main__:Start Healthcheck at (2017-04-02 14:01:57)
+DEBUG:__main__:Desination URL : daum.net
+WARNING:__main__:Connection Failed
+DEBUG:__main__:Start Healthcheck at (2017-04-02 14:06:32)
+DEBUG:__main__:Desination URL : daum.net
+WARNING:__main__:Connection Failed
+DEBUG:__main__:Start Healthcheck at (2017-04-02 14:07:02)
+DEBUG:__main__:Desination URL : 8.8.8.8
+DEBUG:__main__:Start Healthcheck at (2017-04-02 14:07:29)
+DEBUG:__main__:Desination URL : google.com
+DEBUG:__main__:Success

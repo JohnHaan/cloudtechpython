@@ -19,6 +19,9 @@
   - 20170306 : 코딩클럽(LV.1) 4장, 자료형(딕셔너리)
   - 20170313 : 코딩클럽(LV.1) 5장, 라이브러리 활용
   - 20170320 : 로깅실습(logging, oslo.log)
+  - 20170327 : config 실습(configparser)
+  - 20170403 : olso 실습
+  - 20170410 : class 실습
   
 **Budget 현황**
 https://docs.google.com/spreadsheets/d/1pa9qEH_3CccPPkhA0fBQ7pTYmJ9hzWPrgjDCWZKogUw/edit?usp=sharing

@@ -12,4 +12,4 @@ r = pyping.ping('google.com')
 if (r.ret_code == 0):
     logging.info("success %s", r.destination)
 else:
-    logging.info("fail %s", r.destination)
+    logging.info("fail {}".format(r.destination))

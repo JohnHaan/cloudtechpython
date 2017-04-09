@@ -14,10 +14,14 @@ url = "http://www.naver.com"
 html_result = requests.get(url)
 bs = BeautifulSoup(html_result.text, "html.parser")
 
-li_up = bs.find_all("li",class_=True,value=True)
+li_up = bs.find_all("li",class_="ah_item")
+
 for a in li_up:
-    real=a.find("span",{"class":"ell"})
+    real=a.find("span",{"class":"ah_k"})
+    rank=a.find("span",{"class":"ah_r"})
     try:
-        logging.info(a['value']+u"등" + u" "+ real.text)
+        print(rank.text)
+        print(real.text)
+        #logging.info(rank.text + u"등" + u" "+ real.text)
     except:
         pass

@@ -28,10 +28,12 @@ def main():
     URL = 'http://www.naver.com'
     res = requests.get(URL)
     soup = BeautifulSoup(res.text, 'lxml')
-    data = soup.find('select', attrs={'name': 'query'})
+    datas = soup.find_all('a', attrs={'class': 'ah_a'})
     logging.debug('### 네이버 실시간 검색어 ###')
-    for element in data:
-        logging.debug(element.string.strip())
+    for data in datas:
+        rank = data.find('span', attrs={'class': 'ah_r'}).string
+        name = data.find('span', attrs={'class': 'ah_k'}).string.strip()
+        logging.debug('%s 위: %s', str(rank), name)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,4 @@
+2017-04-08 23:20:51.670 962 DEBUG __main__ [-] Start Healthcheck at (2017-04-08 23:20:51) main health.py:38
+2017-04-08 23:20:51.671 962 DEBUG __main__ [-] Desination URL : daum.net main health.py:39
+2017-04-08 23:20:51.671 962 DEBUG __main__ [-] builtins.str method health_check called with arguments () {} wrapper /usr/local/lib/python3.5/site-packages/oslo_log/helpers.py:47
+2017-04-08 23:20:55.880 962 DEBUG __main__ [-] Success main health.py:42

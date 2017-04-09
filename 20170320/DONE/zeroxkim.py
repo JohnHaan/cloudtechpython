@@ -32,7 +32,7 @@ def navertest():
     response = requests.get(url)
     
     soup = BeautifulSoup(response.text, "html.parser")
-    data = soup.find_all("span",{"class":"ell"})
+    data = soup.find_all("span",{"class":"ah_k"})
     
     logger = logging.getLogger("zeroxkimlogger")
     logger.setLevel(logging.DEBUG)

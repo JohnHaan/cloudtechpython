@@ -1,7 +1,7 @@
 try:
-    from configparser import RawConfigParser
+    from configparser import SafeConfigParser
 except ImportError:
-    from ConfigParser import RawConfigParser
+    from ConfigParser import SafeConfigParser
 import os
 
 def find_config_file(project):
@@ -16,6 +16,7 @@ def find_config_file(project):
     :param project:
     :return: config file path
     """
+    
     config_dir = [os.path.expanduser(os.path.join('~', '.' + project)),
                   os.path.expanduser(os.path.join('~')),
                   os.path.join('/etc', project),
@@ -27,5 +28,7 @@ def find_config_file(project):
             return file_path
 
 
-CONF = RawConfigParser()
-CONF.read(find_config_file('example'))
+def init(project):
+    CONF = SafeConfigParser()
+    CONF.read(find_config_file(project))
+    return CONF

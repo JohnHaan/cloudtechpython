@@ -8,7 +8,6 @@ except ImportError:
 
 parser = SafeConfigParser()
 
-parser.read('multisection.ini')
 parser.read('/projects/cloudtechpython/20170327/exercise_config/sample1.ini')
 
 for section_name in parser.sections():
