@@ -1,0 +1,69 @@
+2017-04-09 09:47:17.688 728 CRITICAL DEFAULT [-] oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:17.688 728 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2381, in __getattr__
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     return self._get(name)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2821, in _get
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     value = self._do_get(name, group, namespace)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2838, in _do_get
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     info = self._get_opt_info(name, group)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2993, in _get_opt_info
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     raise NoSuchOptError(opt_name, group)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:17.688 728 ERROR DEFAULT 
+2017-04-09 09:47:17.688 728 ERROR DEFAULT During handling of the above exception, another exception occurred:
+2017-04-09 09:47:17.688 728 ERROR DEFAULT 
+2017-04-09 09:47:17.688 728 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "sdhong.py", line 38, in <module>
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     main()
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "sdhong.py", line 28, in main
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     LOG.info("enable: %s", CONF.myapp.enable)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2385, in __getattr__
+2017-04-09 09:47:17.688 728 ERROR DEFAULT     raise NoSuchOptError(name)
+2017-04-09 09:47:17.688 728 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:17.688 728 ERROR DEFAULT 
+2017-04-09 09:47:37.243 730 CRITICAL DEFAULT [-] oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:37.243 730 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2381, in __getattr__
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     return self._get(name)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2821, in _get
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     value = self._do_get(name, group, namespace)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2838, in _do_get
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     info = self._get_opt_info(name, group)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2993, in _get_opt_info
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     raise NoSuchOptError(opt_name, group)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:37.243 730 ERROR DEFAULT 
+2017-04-09 09:47:37.243 730 ERROR DEFAULT During handling of the above exception, another exception occurred:
+2017-04-09 09:47:37.243 730 ERROR DEFAULT 
+2017-04-09 09:47:37.243 730 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "sdhong.py", line 38, in <module>
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     main()
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "sdhong.py", line 28, in main
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     LOG.info("enable: %s", CONF.myapp.enable)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2385, in __getattr__
+2017-04-09 09:47:37.243 730 ERROR DEFAULT     raise NoSuchOptError(name)
+2017-04-09 09:47:37.243 730 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option myapp in group [DEFAULT]
+2017-04-09 09:47:37.243 730 ERROR DEFAULT 
+2017-04-09 09:59:08.435 828 CRITICAL DEFAULT [-] oslo_config.cfg.NoSuchOptError: no such option DEFAUTL in group [DEFAULT]
+2017-04-09 09:59:08.435 828 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2381, in __getattr__
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     return self._get(name)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2821, in _get
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     value = self._do_get(name, group, namespace)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2838, in _do_get
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     info = self._get_opt_info(name, group)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2993, in _get_opt_info
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     raise NoSuchOptError(opt_name, group)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option DEFAUTL in group [DEFAULT]
+2017-04-09 09:59:08.435 828 ERROR DEFAULT 
+2017-04-09 09:59:08.435 828 ERROR DEFAULT During handling of the above exception, another exception occurred:
+2017-04-09 09:59:08.435 828 ERROR DEFAULT 
+2017-04-09 09:59:08.435 828 ERROR DEFAULT Traceback (most recent call last):
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "sdhong.py", line 36, in <module>
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     main()
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "sdhong.py", line 28, in main
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     LOG.info("health_check: %s", CONF.DEFAUTL.target_url)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT   File "/usr/local/lib/python3.5/site-packages/oslo_config/cfg.py", line 2385, in __getattr__
+2017-04-09 09:59:08.435 828 ERROR DEFAULT     raise NoSuchOptError(name)
+2017-04-09 09:59:08.435 828 ERROR DEFAULT oslo_config.cfg.NoSuchOptError: no such option DEFAUTL in group [DEFAULT]
+2017-04-09 09:59:08.435 828 ERROR DEFAULT 

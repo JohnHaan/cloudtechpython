@@ -1,0 +1,4 @@
+2017-04-09 13:54:54.350 578 INFO __main__ [-] Success - www.google.com, 173.194.205.105, max-rtt : 10.881
+2017-04-09 13:55:39.649 597 INFO __main__ [-] Success - www.google.com, 216.58.217.100, max-rtt : 2.288
+2017-04-09 14:17:50.204 429 INFO __main__ [-] Success - www.google.com, 172.217.3.36, max-rtt : 2.914
+2017-04-10 09:19:18.073 791 INFO __main__ [-] Success - www.google.com, 172.217.9.68, max-rtt : 18.296

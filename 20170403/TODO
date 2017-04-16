@@ -4,7 +4,7 @@
   - oslo_log, oslo_config를 사용
   - ping 체크 함수를 만들고 함수 입력 값을 로그로 남기시요[0] (@log_helpers.log_method_call)
 
-[0] ex)
+@log_helpers.log_method_call
 def health_check(target):
     r = pyping.ping(target)
     return r

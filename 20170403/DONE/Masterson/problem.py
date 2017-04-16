@@ -37,7 +37,7 @@ def main():
     register_options(CONF)
     oslo_logging.register_options(CONF)
     oslo_logging.set_defaults(log_dir='/projects/cloudtechpython/20170403/DONE/Masterson/son.log')
-    CONF(sys.argv[1:], default_config_files=['problem.conf'] )
+    CONF(sys.argv[1:], default_config_files=['problem.conf'])
     oslo_logging.setup(CONF, 'demo')
     checkping(CONF.logconf.target_url)
 

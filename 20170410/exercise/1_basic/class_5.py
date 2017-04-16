@@ -10,4 +10,4 @@ pey = Service()
 
 print(pey.secret)
 pey.sum(1,1)
-Service.sum(pey, 1, 1)
+#Service.sum(pey, 1, 1)

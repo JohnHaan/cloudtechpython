@@ -22,7 +22,7 @@
   - 20170327 : config 실습(configparser)
   - 20170403 : olso.conf, oslo.log 실습
   - 20170410 : class 실습(basic, 생성/소멸자, isinstance)
-  - 20170417 : class 실습(상속, 오버라이드)
+  - 20170417 : class 실습(상속, 오버라이드, super())
   
   
 **Budget 현황**
