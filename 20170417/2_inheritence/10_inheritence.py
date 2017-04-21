@@ -8,12 +8,12 @@ class Animal(object):
 
 class Tiger(Animal):
     def __init__(self):
-#        super(Tiger, self).__init__()
+        super(Tiger, self).__init__()
         print("Tiger __init__()")
 
 class Lion(Animal):
     def __init__(self):
-#        super(Lion, self).__init__()
+        super(Lion, self).__init__()
         print("Lion __init__()")
 
 class Liger(Tiger, Lion):

@@ -1,5 +1,5 @@
 class Car(object):
-    init = 1
+    pass
     
 class Taxi(Car):
     def __init__(self):

@@ -10,7 +10,7 @@ class Infrasil(object):
     def count_members(self):
         print(self.members)
 
-class Cloudtechteam(infrasil):
+class Cloudtechteam(Infrasil):
     def __init__(self, leader, members):
         self.leader = leader
         self.members = members

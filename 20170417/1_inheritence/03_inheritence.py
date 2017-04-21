@@ -11,12 +11,15 @@ class Infrasil(object):
     def count_members(self):
         print(self.members)
     
-class Cloudtechteam(infrasil):
+class Cloudtechteam(Infrasil):
     def __init__(self, leader, members):
         self.leader = leader
         self.members = members
     def what_to_do(self):
         print("%s님은 기술을 선도합니다." % self.leader)
+
+class sjhan(Cloudtechteam):
+    def what_to_do
 
 c = Cloudtechteam("이창재", 8)
 c.what_to_do()

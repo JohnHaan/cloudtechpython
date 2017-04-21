@@ -20,5 +20,5 @@ class Liger(Tiger, Lion):
         
 l = Liger()
 l.cry()
-#print(Liger.__mro__)
+print(Liger.__mro__)
 ### mro(module resolution order)
