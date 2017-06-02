@@ -3,17 +3,22 @@
   - 속성 : 이름, HP, 이동속도, 공격력(5)
   - 함수 : attack
   - Unit의 속성을 상속받는 scv, 마린, 벌쳐를 정의한다.
+  
   - scv
     - 생산력, 공격력을 정의하고 explain, repair, attack 함수를 정의한다.
     - explain 함수로 scv의 속성을 프린트한다.
     - attack 함수는 Unit 함수와 동일한 action을 수행한다.
+    
   - 마린
     - 공격력을 정의하고 explain, attack, patrol 함수를 정의한다.
     - explain 함수로 마린의 속성을 프린트한다.
+    
     - attack 함수를 호출하되, 마린의 공격력은 10이다.
+    
   - 벌쳐
     - 공격력, 마인 수를 정의하고 explain, attack 함수를 정의한다.
     - explain 함수로 벌쳐의 속성을 프린트한다.
+    
     - attack 함수를 호출하되, 벌쳐의 공격력은 25이다.
   
   

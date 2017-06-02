@@ -1,0 +1,7 @@
+* Flask를 이용해 OpenStack의 endpoint를 출력해 주는 웹서버를 구동하라.
+     - listen IP,Port는 자유롭게 설정한다.
+     - 사용자 서버의 hostname을 {hostname} 변수에 적용한다.
+     - GET method로 /nova 호출 시, 'http://{hostname}:8774' 를 출력해 준다.
+     - GET method로 /glance 호출 시, 'http://{hostname}:9292' 를 출력해 준다.
+     - GET method로 /keystone 호출하고 본인의 username을 인자로 넘겨주면, 'http://{hostname}:5000/{username} Allowed User!'
+       를 출력해준다.

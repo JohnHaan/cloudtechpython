@@ -1,0 +1,68 @@
+[Decorator Overview]
+
+파이썬의 함수는 사실 객체이다. 파이썬 함수의 특징은 아래와 같다.
+
+1. 변수에 할당할 수 있다.
+
+def greet(name):
+    return "Hello {}".format(name)
+
+greet_someone = greet
+greet_someone("Eunwoo")
+
+
+2. 다른 함수 내에서 정의될 수 있다.
+
+def greeting(name):
+    def greet_message():
+        return 'Hello'
+    return "{} {}".format(greet_message(), name)
+
+greeting("Eunwoo")
+
+3. 함수의 인자로 전달할 수 있다.
+
+def change_name_greet(func):
+    name = "Narae"
+    return func(name)
+
+change_name_greet(greet)
+
+4. 함수의 반환값이 될 수 있다.
+
+def uppercase(func):
+    def wrapper(name):
+        result = func(name)
+        return result.upper()
+    return wrapper
+
+new_greet = uppercase(greet)
+new_greet("sjhan")
+
+[decorator use case]
+
+1. instance의 action 함수를 호출하기 전에 lock이 되었는지 확인하는 로직
+
+### reboot method
+
+    @check_instance_lock
+    def reboot(self, context, instance, reboot_type):
+        """Reboot the given instance."""
+        if reboot_type == 'SOFT':
+            self._soft_reboot(context, instance)
+        else:
+            self._hard_reboot(context, instance)
+
+### decorator
+            
+def check_instance_lock(function):
+    @six.wraps(function)
+    def inner(self, context, instance, *args, **kwargs):
+        if instance.locked and not context.is_admin:
+            raise exception.InstanceIsLocked(instance_uuid=instance.uuid)
+        return function(self, context, instance, *args, **kwargs)
+    return inner
+    
+
+2. instance의 admin action 함수 호출하기 전에 admin인지 확인하는 로직
+

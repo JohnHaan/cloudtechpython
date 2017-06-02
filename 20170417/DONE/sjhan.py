@@ -23,6 +23,9 @@ class Marine(Unit):
     
     def explain(self):
         print("Marine Attrs : %s" % self.__dict__)
+        
+    def patrol(self):
+        print("Marine is going around now.")
 
 class Vulture(Unit):
     def __init__(self, name, hp, speed, attack_power, num_mine):

@@ -1,0 +1,4 @@
+1. 인스턴스의 action을 수행 시, 인스턴스가 lock인지 확인하는 decorator 함수를 정의하라.
+  - class instance 객체의 속성을 정의한다. ( name, lock여부)
+  - instance 객체의 내장함수로 reboot과 stop을 정의한다.
+  - reboot과 stop 함수 호출 시 lock 여부를 확인하고 lock일 경우 exception을 raise 시키는 함수를 정의한다.
