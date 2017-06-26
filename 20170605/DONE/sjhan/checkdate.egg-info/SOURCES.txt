@@ -1,0 +1,10 @@
+README.rst
+setup.py
+checkdate.egg-info/PKG-INFO
+checkdate.egg-info/SOURCES.txt
+checkdate.egg-info/dependency_links.txt
+checkdate.egg-info/entry_points.txt
+checkdate.egg-info/requires.txt
+checkdate.egg-info/top_level.txt
+sjhan/__init__.py
+sjhan/check_date.py

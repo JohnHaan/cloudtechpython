@@ -1,0 +1,3 @@
+[console_scripts]
+dolbam = dolbam.check_date:main
+

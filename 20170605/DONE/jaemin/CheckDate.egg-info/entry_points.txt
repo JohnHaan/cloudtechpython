@@ -1,0 +1,6 @@
+[console_scripts]
+what_date = jaemin.check_date:what_date
+what_month = jaemin.check_date:what_month
+what_time = jaemin.check_date:what_time
+what_year = jaemin.check_date:what_year
+

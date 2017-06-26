@@ -1,0 +1,6 @@
+[console_scripts]
+juho_what_date = juho.check_date:date
+juho_what_month = juho.check_date:month
+juho_what_time = juho.check_date:time
+juho_what_year = juho.check_date:year
+

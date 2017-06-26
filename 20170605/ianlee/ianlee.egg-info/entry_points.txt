@@ -1,0 +1,3 @@
+[console_scripts]
+ianlee = ianlee.check_date:main
+

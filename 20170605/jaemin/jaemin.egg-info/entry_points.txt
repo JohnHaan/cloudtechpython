@@ -1,0 +1,3 @@
+[console_scripts]
+jaemin = jaemin.check_date:main
+

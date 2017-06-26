@@ -1,0 +1,6 @@
+[console_scripts]
+what_date = youngilkim.check_date:what_date
+what_month = youngilkim.check_date:what_month
+what_time = youngilkim.check_date:what_time
+what_year = youngilkim.check_date:what_year
+

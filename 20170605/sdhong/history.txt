@@ -1,0 +1,141 @@
+ls
+    1  sudo -i
+    2  git status
+    3  cd cloudtechpython/
+    4  git status
+    5  clear
+    6  ls
+    7  cat entrypoint.sh 
+    8  sudo -i
+    9  clear
+   10  ls
+   11  sudo -i
+   12  ls
+   13  cd /projects/cloudtechpython/
+   14  ls
+   15  cd 20170410
+   16  cd exercise/basic/
+   17  ls
+   18  python class_6.py 
+   19  sudo -i
+   20  ㅣㄴ
+   21  ls
+   22  cd cloudtechpython/
+   23  ls
+   24  cd 20170417/
+   25  ls
+   26  cd ../20170410/
+   27  ls
+   28  cd DONE/
+   29  ls
+   30  python sjhan1.py 
+   31  cd cloudtechpython/20170410/
+   32  ls
+   33  cd ..
+   34  cd 20170417/
+   35  ls
+   36  cd 1_inheritence/
+   37  ls
+   38  python 05_inheritence.py 
+   39  python 00_inheritence.py 
+   40  cd ../2_inheritence/
+   41  ls
+   42  python 06_inheritence.py 
+   43  python 07_inheritence.py 
+   44  python 06_inheritence.py 
+   45  python 07_inheritence.py 
+   46  python 08_inheritence.py 
+   47  git status
+   48  cd clou
+   49  ls
+   50  cd /projects/
+   51  cd cloudtechpython/
+   52  git status
+   53  sudo -i
+   54  ls
+   55  git status
+   56  git pull origin master
+   57  git add -A
+   58  git commit -a
+   59  git push origin master
+   60  cd cloudtechpython/20170424/
+   61  ls
+   62  cd 02_make_exception/
+   63  ls
+   64  python 01_mexception.py 
+   65  python 02_mexception.py 
+   66  ll
+   67  cd cloudtechpython/
+   68  ls
+   69  ll
+   70  cd 20170508/
+   71  ll
+   72  cp -rp oslo.messaging ../20170522/
+   73  cd ../201700522
+   74  cd ../20170522
+   75  ll
+   76  cd oslo.messaging/
+   77  ls
+   78  ll
+   79  python basic_notifier.py 
+   80  python basic_agent.py 
+   81  sudo python basic_agent.py 
+   82  ps aux | grep python
+   83  exit
+   84  ls
+   85  cd cloudtechpython/
+   86  ls
+   87  cd 20170227/
+   88  ls
+   89  cd DONE/
+   90  ls
+   91  python --version
+   92  python sdhong.py 
+   93  cd cloudtechpython/20170605/
+   94  ll
+   95  virtualenv ENV_sdhong
+   96  ll
+   97  cd ENV_sdhong/
+   98  ll
+   99  cd ..
+  100  source ENV_sdhong/bin/activate
+  101  pip freeze
+  102  pip install flask
+  103  pip freeze
+  104  deactivate 
+  105  pip fleeze
+  106  pip freeze
+  107  mkdir sdhong
+  108  cd sdhong/
+  109  vi check_date.py 
+  110  python check_date.py 
+  111  python call_check_date.py
+  112  date
+  113  python call_check_date.py
+  114  ll
+  115  mv check_date.py sdhong/
+  116  mv __init__.py sdhong
+  117  python setup.py 
+  118  cd ..
+  119  cd ENV_sdhong/bin/
+  120  acti
+  121  source activate
+  122  cd ../..
+  123  cd sdhong
+  124  ll
+  125  python setup.py install
+  126  pip freeze
+  127  python setup.py install
+  128  pip freeze
+  129  python setup.py sdist
+  130  ll
+  131  ll sdhong
+  132  sdhong
+  133  pip setup.py install
+  134  ll
+  135  python setup.py install
+  136  sdhong
+  137  ll bin
+  138  ll
+  139  history 
+  140  history > history.txt

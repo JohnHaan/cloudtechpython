@@ -1,0 +1,9 @@
+README.txt
+setup.py
+mytime/__init__.py
+mytime/cmd.py
+mytime.egg-info/PKG-INFO
+mytime.egg-info/SOURCES.txt
+mytime.egg-info/dependency_links.txt
+mytime.egg-info/entry_points.txt
+mytime.egg-info/top_level.txt

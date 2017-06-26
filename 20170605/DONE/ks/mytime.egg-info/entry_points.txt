@@ -1,0 +1,6 @@
+[console_scripts]
+what_day = mytime.cmd:what_day
+what_month = mytime.cmd:what_month
+what_time = mytime.cmd:what_time
+what_year = mytime.cmd:what_year
+

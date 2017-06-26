@@ -1,0 +1,6 @@
+[console_scripts]
+what_date = sdhong.check_date:what_date
+what_month = sdhong.check_date:what_month
+what_time = sdhong.check_date:what_time
+what_year = sdhong.check_date:what_year
+

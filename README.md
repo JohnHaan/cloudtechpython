@@ -26,12 +26,21 @@
   - 20170501 : 예외처리 실습 2
   - 20170522 : flask 실습, oslo.messaging 실습
   - 20170529 : decorator 실습
+  - 20170605 : virtualenv, __init__, packaing 실습
+  - 20170620 : Review 1 - 자료형, 제어문
+  - 20170626
+    * A반 - *args & **kwargs, pdb, generator
+    * B반 - 함수, 표준 입출력 
   
   
   
   
 **Budget 현황**
-https://docs.google.com/spreadsheets/d/1pa9qEH_3CccPPkhA0fBQ7pTYmJ9hzWPrgjDCWZKogUw/edit?usp=sharing
+https://docs.google.cmportom/spreadsheets/d/1pa9qEH_3CccPPkhA0fBQ7pTYmJ9hzWPrgjDCWZKogUw/edit?usp=sharing
 
 ** Online Python IDE **
 https://repl.it/
+
+
+A반 (advanced) : 손주호, 김영일, 김영노, 김재민 
+B반 (basic) : 이창재, 홍성대, 김종원

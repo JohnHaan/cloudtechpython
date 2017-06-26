@@ -1,0 +1,3 @@
+[console_scripts]
+zeroxkim = zeroxkim.check_date:main
+

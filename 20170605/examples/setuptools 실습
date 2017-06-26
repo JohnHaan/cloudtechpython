@@ -1,0 +1,19 @@
+### 간단한 python pip package 만들기
+
+1. core module 만들기
+    - check_date.py
+
+2. check_date 모듈 만들기
+    - call_check_date
+    - ### __init__.py
+        from . import check_date
+        
+3. package 만들기
+
+    - package tree 만들기
+    - setup.py 만들기
+    - virtualenv 진입
+    - python setup.py install 실행
+    - 파일 수정 및 버전 업 / 코드 배포
+
+4. tarball만들기

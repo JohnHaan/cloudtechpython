@@ -1,0 +1,3 @@
+[console_scripts]
+youngilkim = youngilkim.check_date:main
+

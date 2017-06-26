@@ -1,0 +1,4 @@
+1. 현재의 년(year), 월(month), 일(date), 시간(time)을 출력하는 파이썬 패키지를 만드시오.
+    - 터미널에 아래와 같은 커맨드 수행 시, 해당 값을 출력하도록 한다.
+        => what_year, what_month, what_date, what_time
+    - tarball 파일로 패키징하여 다른 환경에서 설치 가능하도록 만든다.
