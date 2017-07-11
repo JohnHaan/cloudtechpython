@@ -9,6 +9,7 @@ class Infrasil(object):
     def what_to_do(self):
         print("%s님은 인프라를 담당합니다." % self.leader)
     def count_members(self):
+        print("몇 명이지지지지지?")
         print(self.members)
     
 class Cloudtechteam(Infrasil):
