@@ -21,11 +21,28 @@ def safe_sum(a, b):
         result = sum(a, b)
     return result
     
-    
-    
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    
-    아 미안합니다. A반 수업중인데 방해했네요..
-    
-    사랑합니다 고객님
-    숙제 다 하셨나요?
+# a,b의 타입을 비교해서 다르면 더할 수 없다.
+
+
+# 동일 모듈에 다른 모듈함수를 호출하는 경우  mod1.sum, mod1.safe_sum 이렇게 쓰면 불편하다. from 모듈이름 import 모듈함수를 사용하면 된다.
+# 동일 모듈의 여러 모듈함수를 사용하고 싶으면 from 모듈이름 import 모듈함수1, 모듈함수2
+# 동일 모듈의 모든 모듈함수를 사용하고 싶으면 from 모듈이름 import *
+
+
+# if __name__ == "__main__": 의 의미
+
+if __name__ == "__main__":
+	print safe_sum('a', 1)
+	print safe_sum(1, 4)
+	print sum(10, 10.4)
+	
+	
+	
+	
+# 모듈을 불러오기 위해서는 파이썬파일이 모듈과 동일 경로에 있어야한다.
+# 경로에 상관없이 불러오기 위해서는 sys모듈을 이용하여 path를 지정한다.
+>>> sys.path.append("C:\Python\Mymodules")
+>>> sys.path
+['', 'c:\\', 'c:\\python21\\dlls', 'c:\\python21\\lib', 'c:\\python21\\lib\\plat
+-win', 'c:\\python21\\lib\\lib-tk', 'c:\\python21', 'C:\\Python\\Mymodules']
+>>>

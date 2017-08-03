@@ -32,11 +32,20 @@
     * A반 - *args & **kwargs, pdb, generator
     * B반 - 함수, 표준 입출력 
   - 20170703-4
-    * A반 - 
+    * A반 - set, tenary, decorator
     * B반 - 클래스
-  
-  
-  
+  - 20170710-11
+    * A반 - Global & Return, Mutation
+    * B반 - 미진행
+  - 20170717-18
+    * A반 - contribution overview
+    * B반 - 예외처리
+  - 20170724-25
+    * A반 - 
+    * B반 - exception 실습
+  - 20170731-0801
+    * A반 - mutation, __slot__, virtualenv
+    * B반 - 내장함수, decorator 실습
   
 **Budget 현황**
 https://docs.google.cmportom/spreadsheets/d/1pa9qEH_3CccPPkhA0fBQ7pTYmJ9hzWPrgjDCWZKogUw/edit?usp=sharing

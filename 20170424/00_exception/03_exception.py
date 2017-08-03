@@ -4,8 +4,8 @@
 
 def main():
     try:
-#        f = open('nofile.txt', 'r')
-        4/0
+        f = open('nofile.txt', 'r')
+#        4/0
     except FileNotFoundError:
         print("You need to create the file")
     
