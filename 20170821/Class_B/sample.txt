@@ -1,0 +1,9 @@
+Docker strives for profit with new Enterprise Edition
+
+DEE provides a container management platform that unites Windows, Linux, and
+Mainframe apps on a single platform on the same cluster.
+This puts in competition with container orchestration market leader Kubernetes.
+Docker's program provides customizable and flexible access control for Bring Your Own
+environments, support for a broad range of applications and infrastructure types,
+and new capabilities for creating predefined policies that unify and automate
+the software supply chain.

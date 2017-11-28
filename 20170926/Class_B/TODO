@@ -1,0 +1,19 @@
+[ 개인 프로젝트 리스트 ]
+
+이창재 확정 - 아카이빙 스토리지 백업 솔루션
+  - database management
+  - email 전송 기능
+  - checksum
+
+홍성대 확정 - akamai api를 호출하는 Web Server 프로그램
+  - flask 활용 (web 화면)
+  - api 호출을 위한 라이브러리(requests..)
+
+김종원 확정 - 서버의 interface 의 RX/TX 정보를 가져오는 프로그램
+ - ovs port, bridge, tab device 에 할당된 IP Address, MAC 정보
+
+
+==========================================================
+
+문제 1. 리눅스 OS를 구분하여(CentOS, Ubuntu) 각각의 OS에 맞게 package update 하는 명령어를
+수행해라.

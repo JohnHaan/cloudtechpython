@@ -1,0 +1,15 @@
+1. access key 입력
+- 아카마이에서 제공하는 key를 입력받는 기능
+2. key에 해당하는 프로덕 노출(아카마이 cpcode)
+- 입력받은 key가 제어할 수 있는 권한이 있는 프로덕 리스트 노출
+3. 프로덕 선택
+- 제어하고자 하는 프로덕의 선택
+4. cache purge 단위 선택 및 입력
+- file단위
+- cpcode단위
+5. cache purge 단위 선택
+- delete
+- invalidate
+6. 결과값 노출 및 저장
+- api요청 후 리턴코드(http 코드 및 purge id)
+- 결과값을 데이터베이스에 저장(요청시간,purge 요청내용,key,프로덕,http code,purge_id)

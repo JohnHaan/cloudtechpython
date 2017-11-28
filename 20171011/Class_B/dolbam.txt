@@ -1,0 +1,28 @@
+3.김종원 확정 - 서버의 interface 의 RX/TX 정보를 가져오는 프로그램
+ - ovs port, bridge, tab device 에 할당된 IP Address, MAC 정보
+
+# dpdk 환경
+#  #neutron command 사용 안함
+# 
+1. vm의 위치
+    - spine switch에서 조회 , python expect 사용
+
+2. vm이 속한 host의 위치
+   - 1에서 확인된 leaf switch에서 조회, host가 연결 된 스위치 포트
+------------------------------------------------------------------
+1. 특정 host의 vm list #nova command 사용 안함
+
+2. ip,mac은 openflow spoof table에서 가져옮
+   
+3. 2에서 확인 port의 statistics 확인
+
+4. br-ex의 physical port statistics 확인
+
+5. 3,4의 값 비교
+
+6. vm의 vhoust user port statistics 확인
+
+7. vm내부의 interface st. 확인
+
+8. 6,7의 값 비교
+

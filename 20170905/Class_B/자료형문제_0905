@@ -1,0 +1,13 @@
+company_dict = [
+    {'name': 'naver', 'employee': 780},
+    {'name': 'ncsoft', 'employee': 2250},
+    {'name': 'netmarble', 'employee': 3850},
+    {'name': 'com2us', 'employee': 708},
+    {'name': 'nexon', 'employee': 4500},
+]
+
+
+위의 기업 정보 dictionary 에서,
+
+(1) 이름에 'n'이 들어가는 회사의 리스트를 출력해라.
+(2) 사원수가 2000명 이상인 회사의 리스트를 출력해라.
